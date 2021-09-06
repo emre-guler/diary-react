@@ -39,8 +39,8 @@
     cursor: pointer;
   }
 
-  .signButtons{
-    box-shadow: none;
+  .btn{
+    box-shadow: none !important;
 }
 
   .signButtons button{
