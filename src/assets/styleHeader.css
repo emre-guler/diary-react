@@ -9,13 +9,13 @@
     font-family: 'Encode Sans', sans-serif;
   }
   
-  .Header{
+  .header-container{
     display: flex;
     justify-content: space-between;
     padding: 2rem;
   }
   
-  .headerLogo a{
+  .logo a{
     font-size: 25px;
     text-decoration: none;
     color: rgb(72, 72, 168);
@@ -37,4 +37,12 @@
     font-size: 15px;
     text-decoration: none;
     cursor: pointer;
+  }
+
+  .signButtons{
+    box-shadow: none;
+}
+
+  .signButtons button{
+    margin-left: 5px;
   }
