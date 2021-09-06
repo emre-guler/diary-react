@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  body{
+    font-family: 'Encode Sans', sans-serif;
+  }
+  
+  .Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  
+  .headerLogo a{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(72, 72, 168);
+    font-weight: 700;
+  }
+  
+  .headerLinks{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .headerLinks a{
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+  }
