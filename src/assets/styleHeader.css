@@ -4,9 +4,10 @@
     margin: 0;
     list-style: none;
   }
-  
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
   body{
-    font-family: 'Encode Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
   }
   
   .header-container{
