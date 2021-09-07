@@ -28,22 +28,150 @@ const Content = () => {
           </span>
         </Col>
         <Col className="contentProps" xl={8} md={8} sm={8}>
-          <Card style={{ width: "18rem", border: "none" }}>
-            <Card.Body>
-              <Card.Subtitle className="mb-2 text-muted">
-                <span className="propPicBackground">
-                  <ImFilePicture
-                    style={{ color: "purple", fontSize: "20px" }}
-                  />
-                </span>
-              </Card.Subtitle>
-              <Card.Title>Fotoğraflar</Card.Title>
-              <Card.Text>
-                Sanal günlüğünüze, kaydettiğiniz fotoğrafları koyup
-                kişiselleştirebilirsiniz.
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <Col xl={3} md={3} sm={3}>
+            <Card style={{ width: "18rem", border: "none" }}>
+              <Card.Body>
+                <Card.Subtitle className="mb-2 text-muted">
+                  <span className="propPicBackground">
+                    <ImFilePicture
+                      style={{ color: "purple", fontSize: "20px" }}
+                    />
+                  </span>
+                </Card.Subtitle>
+                <Card.Title>Fotoğraflar</Card.Title>
+                <Card.Text>
+                  Sanal günlüğünüze, kaydettiğiniz fotoğrafları koyup
+                  kişiselleştirebilirsiniz.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xl={3} md={3} sm={3}>
+            <Card style={{ width: "18rem", border: "none" }}>
+              <Card.Body>
+                <Card.Subtitle className="mb-2 text-muted">
+                  <span className="propPicBackground">
+                    <ImFilePicture
+                      style={{ color: "purple", fontSize: "20px" }}
+                    />
+                  </span>
+                </Card.Subtitle>
+                <Card.Title>Fotoğraflar</Card.Title>
+                <Card.Text>
+                  Sanal günlüğünüze, kaydettiğiniz fotoğrafları koyup
+                  kişiselleştirebilirsiniz.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xl={3} md={3} sm={3}>
+            <Card style={{ width: "18rem", border: "none" }}>
+              <Card.Body>
+                <Card.Subtitle className="mb-2 text-muted">
+                  <span className="propPicBackground">
+                    <ImFilePicture
+                      style={{ color: "purple", fontSize: "20px" }}
+                    />
+                  </span>
+                </Card.Subtitle>
+                <Card.Title>Fotoğraflar</Card.Title>
+                <Card.Text>
+                  Sanal günlüğünüze, kaydettiğiniz fotoğrafları koyup
+                  kişiselleştirebilirsiniz.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xl={3} md={3} sm={3}>
+            <Card style={{ width: "18rem", border: "none" }}>
+              <Card.Body>
+                <Card.Subtitle className="mb-2 text-muted">
+                  <span className="propPicBackground">
+                    <ImFilePicture
+                      style={{ color: "purple", fontSize: "20px" }}
+                    />
+                  </span>
+                </Card.Subtitle>
+                <Card.Title>Fotoğraflar</Card.Title>
+                <Card.Text>
+                  Sanal günlüğünüze, kaydettiğiniz fotoğrafları koyup
+                  kişiselleştirebilirsiniz.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xl={3} md={3} sm={3}>
+            <Card style={{ width: "18rem", border: "none" }}>
+              <Card.Body>
+                <Card.Subtitle className="mb-2 text-muted">
+                  <span className="propPicBackground">
+                    <ImFilePicture
+                      style={{ color: "purple", fontSize: "20px" }}
+                    />
+                  </span>
+                </Card.Subtitle>
+                <Card.Title>Fotoğraflar</Card.Title>
+                <Card.Text>
+                  Sanal günlüğünüze, kaydettiğiniz fotoğrafları koyup
+                  kişiselleştirebilirsiniz.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xl={3} md={3} sm={3}>
+            <Card style={{ width: "18rem", border: "none" }}>
+              <Card.Body>
+                <Card.Subtitle className="mb-2 text-muted">
+                  <span className="propPicBackground">
+                    <ImFilePicture
+                      style={{ color: "purple", fontSize: "20px" }}
+                    />
+                  </span>
+                </Card.Subtitle>
+                <Card.Title>Fotoğraflar</Card.Title>
+                <Card.Text>
+                  Sanal günlüğünüze, kaydettiğiniz fotoğrafları koyup
+                  kişiselleştirebilirsiniz.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xl={3} md={3} sm={3}>
+            <Card style={{ width: "18rem", border: "none" }}>
+              <Card.Body>
+                <Card.Subtitle className="mb-2 text-muted">
+                  <span className="propPicBackground">
+                    <ImFilePicture
+                      style={{ color: "purple", fontSize: "20px" }}
+                    />
+                  </span>
+                </Card.Subtitle>
+                <Card.Title>Fotoğraflar</Card.Title>
+                <Card.Text>
+                  Sanal günlüğünüze, kaydettiğiniz fotoğrafları koyup
+                  kişiselleştirebilirsiniz.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xl={3} md={3} sm={3}>
+            <Card style={{ width: "18rem", border: "none" }}>
+              <Card.Body>
+                <Card.Subtitle className="mb-2 text-muted">
+                  <span className="propPicBackground">
+                    <ImFilePicture
+                      style={{ color: "purple", fontSize: "20px" }}
+                    />
+                  </span>
+                </Card.Subtitle>
+                <Card.Title>Fotoğraflar</Card.Title>
+                <Card.Text>
+                  Sanal günlüğünüze, kaydettiğiniz fotoğrafları koyup
+                  kişiselleştirebilirsiniz.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
         </Col>
       </Row>
     </section>
