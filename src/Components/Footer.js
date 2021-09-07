@@ -10,7 +10,7 @@ const Footer = () => {
             <br></br>
             <br></br>
             <div className="row footer-parts">
-                <div class="footer-part col-12 col-sm-6 col-md-3">
+                <div className="footer-part col-12 col-sm-6 col-md-3">
                     <h5 className="fw-bold header-text footer-part-header" href="/">Hakkımızda</h5>
                     <a className="footer-part-item" href="/">Ekip</a>
                     <br></br>
@@ -19,14 +19,14 @@ const Footer = () => {
                     <a className="footer-part-item" href="/">Vizyonumuz</a>
                     <br></br>
                 </div>
-                <div class="footer-part col-12 col-sm-6 col-md-3">
+                <div className="footer-part col-12 col-sm-6 col-md-3">
                     <h5 className="fw-bold header-text footer-part-header" href="/">Destek</h5>
                     <a className="footer-part-item" href="/">Ekip</a>
                     <br></br>
                     <a className="footer-part-item" href="https://discord.gg/DKSZwhEsys">Discord</a>
                     <br></br>
                 </div>
-                <div class="footer-part col-12 col-sm-6 col-md-3">
+                <div className="footer-part col-12 col-sm-6 col-md-3">
                     <h5 className="fw-bold header-text footer-part-header" href="/">İletişim</h5>
                     <a className="footer-part-item" href="/">Basın</a>
                     <br></br>
@@ -43,8 +43,8 @@ const Footer = () => {
                     <Button variant = "primary">Şimdi Kaydol</Button>
                 </div>
             </div>
-            <div class="footer-sc-lght-area row">
-                <a class="lght-txt text-muted col-12 col-md-8 text-center text-md-start" href="/kvkk">Aydınlatma Metni</a>
+            <div className="footer-sc-lght-area row">
+                <a className="lght-txt text-muted col-12 col-md-8 text-center text-md-start" href="/kvkk">Aydınlatma Metni</a>
                 <br></br>
             </div>
         </footer>
