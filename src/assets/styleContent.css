@@ -44,6 +44,12 @@
     display: flex;
     flex-wrap: wrap;
 }
+.contentProps div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .card-title{
     padding-top: .5rem;
     font-family: "Montserrat",sans-serif;
@@ -62,8 +68,31 @@
     padding:4px 5px 7px 5px;
     border-radius: 5rem;
 }
+.row{
+    --bs-gutter-x: 0 !important;
+}
 
-@media screen and (max-width:1090px) {
+@media screen and (max-width:920px) {
+    .contentNotLogin, .contentPicture{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contentText, .contentPicture img{
+        margin: 0;
+    }
+    .contentPropHead{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-body{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1200px) {
     .contentText{
         width: 400px !important;
     }
