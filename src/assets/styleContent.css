@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
-
 .contentNotLogin{
     justify-content: flex-end;
     padding: 2rem 0;
@@ -71,6 +70,44 @@
 .row{
     --bs-gutter-x: 0 !important;
 }
+
+
+/* Contact  */
+.aboutUpperRow{
+    padding: 100px 0;
+    background-color: #993e2c;
+}
+.aboutUpperCol h1{
+    color: white;
+    font-weight: 400;
+}
+.aboutUpperRow, .aboutMiddleRow, .aboutMiddleRow1, .aboutFormRow{
+    justify-content: center;
+}
+.aboutMiddleCol{
+    margin: 60px 0 !important;
+}
+.aboutMiddleCol p {
+    width: 450px;
+}
+.aboutMiddleRow1{
+    padding: 100px 0;
+}
+.aboutContactImg{
+    width: 500px;
+}
+.aboutInformations b{
+    font-family: "Montserrat", sans-serif;
+}
+.aboutInformations p {
+    margin-bottom: 40px;
+}
+.aboutFormRow{
+    padding: 100px 200px;
+    background-color: #F2F2F2;
+}
+/* About  */
+
 
 @media screen and (max-width:920px) {
     .contentNotLogin, .contentPicture{
