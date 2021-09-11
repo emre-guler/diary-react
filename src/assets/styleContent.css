@@ -73,41 +73,104 @@
 
 
 /* Contact  */
-.aboutUpperRow{
+.contactUpperRow{
     padding: 100px 0;
     background-color: #993e2c;
 }
-.aboutUpperCol h1{
+.contactUpperCol h1{
     color: white;
     font-weight: 400;
 }
-.aboutUpperRow, .aboutMiddleRow, .aboutMiddleRow1, .aboutFormRow{
+.contactUpperRow, .contactMiddleRow, .contactMiddleRow1, .contactFormRow{
     justify-content: center;
 }
-.aboutMiddleCol{
+.contactMiddleCol{
     margin: 60px 0 !important;
 }
-.aboutMiddleCol p {
+.contactMiddleCol p {
     width: 450px;
 }
-.aboutMiddleRow1{
+.contactMiddleRow1{
     padding: 100px 0;
+    align-items: center;
 }
-.aboutContactImg{
-    width: 500px;
-}
-.aboutInformations b{
-    font-family: "Montserrat", sans-serif;
-}
-.aboutInformations p {
+.contactMiddleRow1 div:first-child{
+    display: flex;
+    justify-content: flex-end;
+    width: fit-content !important;
     margin-bottom: 40px;
 }
-.aboutFormRow{
-    padding: 100px 200px;
+.contactImg{
+    width: 420px;
+}
+.contactInformations{
+    margin-left: 50px;
+}
+.contactInformations b{
+    font-family: "Montserrat", sans-serif;
+}
+.contactInformations p {
+    margin-bottom: 40px;
+}
+.contactFormRow{
+    padding:100px 0 ;
     background-color: #F2F2F2;
+}
+.contactFormInputCol{
+display: flex;
+justify-content: center;
+}
+.contactFormInputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactFormInputs label{
+    margin: 10px 0;
+    width: 70%;
+}
+.contactHeader{
+    text-align: center;
+}
+#fullname, #email{
+    height: 50px;
+    width: 70%;
+    padding: 0 10px;
+    outline: none;
+    border: 1px solid #d1d1d1;
+}
+#message{
+    width: 70%;
+    min-height: 300px;
+    padding: 10px;
+    border: 1px solid #d1d1d1;
+    resize: none;
+    outline: none;
+}
+.contactFormButton{
+    width: 170px;
+    border-radius: 0px !important;
+    margin-top: 50px;
 }
 /* About  */
 
+@media screen and (max-width:500px) {
+    .contactImg{
+        width: 300px;
+    }
+    .contactInformations{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .contactFormInputs label, #fullname, #email, #message{
+        width: 90%;
+    }
+    .contactMiddleCol p {
+        width: fit-content;
+    }
+}
 
 @media screen and (max-width:920px) {
     .contentNotLogin, .contentPicture{
