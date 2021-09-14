@@ -12,8 +12,9 @@
   
   .header-container{
     display: flex;
-    justify-content: space-between;
-    padding: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 101px;
   }
   
   .logo a{
@@ -47,3 +48,38 @@
   .signButtons button{
     margin-left: 5px;
   }
+  .responsiveMenu{
+    display: none;
+    font-size: 35px;
+    height: 100%;
+    width: 75px;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    cursor:pointer;
+  }
+  .responsiveMenu:hover{
+    background-color: rgba(94, 94, 94, 0.15);
+  }
+  .responsiveMenuDots{
+    transition: .3s;
+  }
+
+@media screen and (max-width:870px) {
+  .headerLinks{
+    display: none;
+  }
+  .signButtons{
+    display: none;
+  }
+  .responsiveMenu{
+    display: flex;
+  }
+  .header-container{
+    justify-content: space-between;
+    padding: 0 0 0 2rem;
+  }
+  .responsiveActive{
+    transform: rotate(-90deg);
+  }
+}
