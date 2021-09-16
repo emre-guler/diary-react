@@ -52,6 +52,13 @@
     text-decoration: none;
     font-family: "Montserrat",sans-serif;
 }
-.footerSocialMediaCol{
-
+.footerLinksCol, .footerSocialMediaCol, .footerCopyrightCol{
+    flex-wrap: wrap;
+}
+@media screen and (max-width:768px) {
+    .footerSocialMediaCol >div, .footerCopyrightCol >div{
+        justify-content: center;
+        text-align: center;
+        margin-bottom: .7rem;
+    }
 }
