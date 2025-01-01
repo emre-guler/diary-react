@@ -70,11 +70,3 @@ diary-react/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the terms of the license included in the repository.
-
-## Contact
-
-Your Name - [your-email@example.com]
-Project Link: [https://github.com/yourusername/diary-react]
